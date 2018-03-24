@@ -2,16 +2,13 @@ package sortersTesterClasses;
 
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.Random;
-
 import sorterClasses.BubbleSortSorter;
 import sorterClasses.InsertionSortSorter;
 import sorterClasses.SelectionSortSorter;
 import interfaces.Sorter;
 
 public class IntegerArrSorterTester {
-	//private static Sorter<Integer> sorter; 
-	private static Random rnd; 
+
 	private static ArrayList<Sorter<Integer>> sortersList = new ArrayList<>(); 
 	
 	public static void main(String[] args) { 
